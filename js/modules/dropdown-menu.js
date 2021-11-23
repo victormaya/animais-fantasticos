@@ -15,5 +15,6 @@ export default function initDropdownMenu() {
     ['touchstart', 'click'].forEach((userEvent) => {
       menu.addEventListener(userEvent, handleClick);
     });
+    
   });
 }
